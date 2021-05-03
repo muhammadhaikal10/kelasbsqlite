@@ -1,4 +1,4 @@
-package database;
+package com.example.kelasbsqlite.database;
 
 public class Teman {
     String id;
@@ -7,6 +7,7 @@ public class Teman {
 
     public Teman() {
     }
+
 
     public Teman(String id, String nama, String telpon) {
         this.id = id;
